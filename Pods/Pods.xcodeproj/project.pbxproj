@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B7B49331A18B6B73C9925C76738647 /* Pods-ButtonSIteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283738F20463A12AC93A4B3CED42D35 /* Pods-ButtonSIteDemo-dummy.m */; };
+		62FA0686763651D9DD69A29509DEE12D /* ButtonSiteTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E82CD7F5CFA869C61335CA19D3F5C9 /* ButtonSiteTool.swift */; };
+		9F88BD62E7D9CB0289B27A37EE6FFA5D /* ButtonSiteTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE942F649587A743ABEEA7067FD0404B /* ButtonSiteTool-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5A775130FDB6F4E9B802455953E2799 /* ButtonSiteTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 403FA2C4868631A88C58E3911373A095 /* ButtonSiteTool-dummy.m */; };
+		F0C455EDD73115FDCB461248040E33DE /* Pods-ButtonSIteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97052396F61C84CEC6912767F10EB117 /* Pods-ButtonSIteDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A532CCD1F5C8D35C2600A547D3143AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7BEAAA07DB673B6737FDF3A8A7CBEE;
+			remoteInfo = ButtonSiteTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0146198C5E0AC1F395894A3AAC2F43B2 /* ButtonSiteTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ButtonSiteTool.xcconfig; sourceTree = "<group>"; };
+		06604E7E09536FD17929DFBEBB305198 /* Pods-ButtonSIteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ButtonSIteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		10ECB469CF99C530C0C151F1D2C05409 /* ButtonSiteTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ButtonSiteTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2283738F20463A12AC93A4B3CED42D35 /* Pods-ButtonSIteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ButtonSIteDemo-dummy.m"; sourceTree = "<group>"; };
+		270D0EDA3E27A425014505CD7D5870BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		28DB14F8A8023502F8248A1D06FE45D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E10940BC9395B3131B5F612E8357348 /* Pods-ButtonSIteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ButtonSIteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		403FA2C4868631A88C58E3911373A095 /* ButtonSiteTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ButtonSiteTool-dummy.m"; sourceTree = "<group>"; };
+		456C8B1A8DD95C85618C2310D69CD182 /* ButtonSiteTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ButtonSiteTool-prefix.pch"; sourceTree = "<group>"; };
+		7639B5961654D8B6B984D43C03E99F27 /* Pods-ButtonSIteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ButtonSIteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B311479605FE5ECEF6F5505912DFEEA /* libButtonSiteTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libButtonSiteTool.a; path = libButtonSiteTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8618A73BEEA42571275D998B0AA12DD6 /* libPods-ButtonSIteDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ButtonSIteDemo.a"; path = "libPods-ButtonSIteDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3934E7106F2021183C8489B553CEEC /* Pods-ButtonSIteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ButtonSIteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97052396F61C84CEC6912767F10EB117 /* Pods-ButtonSIteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ButtonSIteDemo-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3E9EA4C58CAFCB9DC19B83EE6660CF9 /* ButtonSiteTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ButtonSiteTool.modulemap; sourceTree = "<group>"; };
+		C1E82CD7F5CFA869C61335CA19D3F5C9 /* ButtonSiteTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonSiteTool.swift; path = ButtonSiteTool/Classes/ButtonSiteTool.swift; sourceTree = "<group>"; };
+		D073ACDAD37A8AFDD2CD791FA531D229 /* Pods-ButtonSIteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ButtonSIteDemo.modulemap"; sourceTree = "<group>"; };
+		FE942F649587A743ABEEA7067FD0404B /* ButtonSiteTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ButtonSiteTool-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		395005DA4C364094CEB0955A9975AC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE65FFFEEADE1BFE01101652ADBAFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8C3D90A564A24AA4010531068A0C98 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				341BD46267ACECAEBF7740C917E4C1AB /* ButtonSiteTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		341BD46267ACECAEBF7740C917E4C1AB /* ButtonSiteTool */ = {
+			isa = PBXGroup;
+			children = (
+				C1E82CD7F5CFA869C61335CA19D3F5C9 /* ButtonSiteTool.swift */,
+				DCBA0BFC7896F6F66895CCEDDA1A7EAA /* Pod */,
+				44A43A18323E565B36EB5C7C2F8ACCC6 /* Support Files */,
+			);
+			name = ButtonSiteTool;
+			path = ../Lib/ButtonSiteTool;
+			sourceTree = "<group>";
+		};
+		44A43A18323E565B36EB5C7C2F8ACCC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9EA4C58CAFCB9DC19B83EE6660CF9 /* ButtonSiteTool.modulemap */,
+				0146198C5E0AC1F395894A3AAC2F43B2 /* ButtonSiteTool.xcconfig */,
+				403FA2C4868631A88C58E3911373A095 /* ButtonSiteTool-dummy.m */,
+				456C8B1A8DD95C85618C2310D69CD182 /* ButtonSiteTool-prefix.pch */,
+				FE942F649587A743ABEEA7067FD0404B /* ButtonSiteTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ButtonSiteTool";
+			sourceTree = "<group>";
+		};
+		51689132E977349BC24F4865E9C1AB0B /* Pods-ButtonSIteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D073ACDAD37A8AFDD2CD791FA531D229 /* Pods-ButtonSIteDemo.modulemap */,
+				8B3934E7106F2021183C8489B553CEEC /* Pods-ButtonSIteDemo-acknowledgements.markdown */,
+				06604E7E09536FD17929DFBEBB305198 /* Pods-ButtonSIteDemo-acknowledgements.plist */,
+				2283738F20463A12AC93A4B3CED42D35 /* Pods-ButtonSIteDemo-dummy.m */,
+				97052396F61C84CEC6912767F10EB117 /* Pods-ButtonSIteDemo-umbrella.h */,
+				7639B5961654D8B6B984D43C03E99F27 /* Pods-ButtonSIteDemo.debug.xcconfig */,
+				2E10940BC9395B3131B5F612E8357348 /* Pods-ButtonSIteDemo.release.xcconfig */,
+			);
+			name = "Pods-ButtonSIteDemo";
+			path = "Target Support Files/Pods-ButtonSIteDemo";
+			sourceTree = "<group>";
+		};
+		70818B2F4304202ED018CAF7DE35BE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B311479605FE5ECEF6F5505912DFEEA /* libButtonSiteTool.a */,
+				8618A73BEEA42571275D998B0AA12DD6 /* libPods-ButtonSIteDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1EE9ACBF82C210D1A91298003996FE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51689132E977349BC24F4865E9C1AB0B /* Pods-ButtonSIteDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2A8C3D90A564A24AA4010531068A0C98 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				70818B2F4304202ED018CAF7DE35BE51 /* Products */,
+				C1EE9ACBF82C210D1A91298003996FE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBA0BFC7896F6F66895CCEDDA1A7EAA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				10ECB469CF99C530C0C151F1D2C05409 /* ButtonSiteTool.podspec */,
+				28DB14F8A8023502F8248A1D06FE45D0 /* LICENSE */,
+				270D0EDA3E27A425014505CD7D5870BB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D35F60BAF78BF3516857EDDC36706788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C455EDD73115FDCB461248040E33DE /* Pods-ButtonSIteDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C70F025D3CCFEB83A8865014A67C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F88BD62E7D9CB0289B27A37EE6FFA5D /* ButtonSiteTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40F9A16E5465B0575C14860939661A5F /* Pods-ButtonSIteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6B6FEC3B0331B21C7841A59A19FCA0 /* Build configuration list for PBXNativeTarget "Pods-ButtonSIteDemo" */;
+			buildPhases = (
+				D35F60BAF78BF3516857EDDC36706788 /* Headers */,
+				C00184CA331D2A40572CAB0D4C20BB5B /* Sources */,
+				395005DA4C364094CEB0955A9975AC4D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FA2C17D6FB0210DF4CCB4EAE8A38C3B /* PBXTargetDependency */,
+			);
+			name = "Pods-ButtonSIteDemo";
+			productName = "Pods-ButtonSIteDemo";
+			productReference = 8618A73BEEA42571275D998B0AA12DD6 /* libPods-ButtonSIteDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F7BEAAA07DB673B6737FDF3A8A7CBEE /* ButtonSiteTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9352E99969F7AAF9DCEDA7C8683A609 /* Build configuration list for PBXNativeTarget "ButtonSiteTool" */;
+			buildPhases = (
+				DE8C70F025D3CCFEB83A8865014A67C7 /* Headers */,
+				0657D59698BC34E724C9A87CA5742C51 /* Sources */,
+				4FE65FFFEEADE1BFE01101652ADBAFA2 /* Frameworks */,
+				7F08A144724A665CD90D5B844A79F820 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonSiteTool;
+			productName = ButtonSiteTool;
+			productReference = 7B311479605FE5ECEF6F5505912DFEEA /* libButtonSiteTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 70818B2F4304202ED018CAF7DE35BE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7BEAAA07DB673B6737FDF3A8A7CBEE /* ButtonSiteTool */,
+				40F9A16E5465B0575C14860939661A5F /* Pods-ButtonSIteDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F08A144724A665CD90D5B844A79F820 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ButtonSiteTool/ButtonSiteTool.modulemap",
+				"${PODS_ROOT}/Headers/Public/ButtonSiteTool/ButtonSiteTool-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ButtonSiteTool-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ButtonSiteTool/ButtonSiteTool.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ButtonSiteTool/ButtonSiteTool-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0657D59698BC34E724C9A87CA5742C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A775130FDB6F4E9B802455953E2799 /* ButtonSiteTool-dummy.m in Sources */,
+				62FA0686763651D9DD69A29509DEE12D /* ButtonSiteTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00184CA331D2A40572CAB0D4C20BB5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B7B49331A18B6B73C9925C76738647 /* Pods-ButtonSIteDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FA2C17D6FB0210DF4CCB4EAE8A38C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ButtonSiteTool;
+			target = 6F7BEAAA07DB673B6737FDF3A8A7CBEE /* ButtonSiteTool */;
+			targetProxy = A532CCD1F5C8D35C2600A547D3143AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		482973EF7BD7E3B7D373358CEA819302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0146198C5E0AC1F395894A3AAC2F43B2 /* ButtonSiteTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ButtonSiteTool/ButtonSiteTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ButtonSiteTool/ButtonSiteTool.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ButtonSiteTool;
+				PRODUCT_NAME = ButtonSiteTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A57F723F49E15AA9E59F85C5CA8B7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E10940BC9395B3131B5F612E8357348 /* Pods-ButtonSIteDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ButtonSIteDemo/Pods-ButtonSIteDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AFA159D4F9681400D216E73982AC62CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0146198C5E0AC1F395894A3AAC2F43B2 /* ButtonSiteTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ButtonSiteTool/ButtonSiteTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ButtonSiteTool/ButtonSiteTool.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ButtonSiteTool;
+				PRODUCT_NAME = ButtonSiteTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7BB951CB8DEF4CF31D17476779BE0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7639B5961654D8B6B984D43C03E99F27 /* Pods-ButtonSIteDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ButtonSIteDemo/Pods-ButtonSIteDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6B6FEC3B0331B21C7841A59A19FCA0 /* Build configuration list for PBXNativeTarget "Pods-ButtonSIteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BB951CB8DEF4CF31D17476779BE0DC /* Debug */,
+				5A57F723F49E15AA9E59F85C5CA8B7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9352E99969F7AAF9DCEDA7C8683A609 /* Build configuration list for PBXNativeTarget "ButtonSiteTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA159D4F9681400D216E73982AC62CC /* Debug */,
+				482973EF7BD7E3B7D373358CEA819302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

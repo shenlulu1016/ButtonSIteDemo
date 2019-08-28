@@ -1,0 +1,16 @@
+PODS:
+  - ButtonSiteTool (0.1.0)
+
+DEPENDENCIES:
+  - ButtonSiteTool (from `Lib/ButtonSiteTool`)
+
+EXTERNAL SOURCES:
+  ButtonSiteTool:
+    :path: Lib/ButtonSiteTool
+
+SPEC CHECKSUMS:
+  ButtonSiteTool: 44d3a1c5cc4d746df0af877a3d8d3c28576ce04a
+
+PODFILE CHECKSUM: dde8b825b9bb528c0ddb23c8874edc9117bc72e8
+
+COCOAPODS: 1.7.5

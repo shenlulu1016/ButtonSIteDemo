@@ -1,0 +1,6 @@
+module Pods_ButtonSIteDemo {
+  umbrella header "Pods-ButtonSIteDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
